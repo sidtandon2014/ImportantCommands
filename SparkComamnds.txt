@@ -1,0 +1,2 @@
+// get the total number of cores available in the cluster. 
+val  number_of_cores = java.lang.Runtime.getRuntime.availableProcessors * (sc.statusTracker.getExecutorInfos.length -1)
