@@ -1,0 +1,2 @@
+// Merge repository
+git merge --no-commit <source branch>
